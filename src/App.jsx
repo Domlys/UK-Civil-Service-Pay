@@ -1,143 +1,12 @@
 import React, { useState, useMemo } from 'react';
 import { Search, ArrowUpDown, ExternalLink, Calendar, Building2, Info } from 'lucide-react';
+import departmentsData from './data/departments.json';
 
-// Sample data structure - you'll replace this with your actual data
-const sampleData = {
-  departments: [
-    {
-      id: "hmrc",
-      name: "HM Revenue & Customs",
-      abbreviation: "HMRC",
-      lastUpdated: "2024-11-01",
-      source: "Published Pay Scales 2024",
-      sourceUrl: "https://www.gov.uk/government/organisations/hm-revenue-customs",
-      payScales: [
-        {
-          grade: "Administrative Assistant (AA)",
-          national: { min: 23270, max: 24320 },
-          london: { min: 26270, max: 27320 },
-          notes: "Entry level position"
-        },
-        {
-          grade: "Administrative Officer (AO)",
-          national: { min: 25020, max: 28360 },
-          london: { min: 28020, max: 31360 },
-          notes: ""
-        },
-        {
-          grade: "Executive Officer (EO)",
-          national: { min: 29300, max: 34610 },
-          london: { min: 32300, max: 37610 },
-          notes: ""
-        },
-        {
-          grade: "Higher Executive Officer (HEO)",
-          national: { min: 36490, max: 43450 },
-          london: { min: 39490, max: 46450 },
-          notes: ""
-        },
-        {
-          grade: "Senior Executive Officer (SEO)",
-          national: { min: 46340, max: 53590 },
-          london: { min: 49340, max: 56590 },
-          notes: ""
-        },
-        {
-          grade: "Grade 7",
-          national: { min: 58570, max: 70930 },
-          london: { min: 61570, max: 73930 },
-          notes: ""
-        }
-      ]
-    },
-    {
-      id: "dwp",
-      name: "Department for Work and Pensions",
-      abbreviation: "DWP",
-      lastUpdated: "2024-10-15",
-      source: "FOI Response 2024-456",
-      sourceUrl: "#",
-      payScales: [
-        {
-          grade: "Administrative Assistant (AA)",
-          national: { min: 23180, max: 24230 },
-          london: { min: 26180, max: 27230 },
-          notes: ""
-        },
-        {
-          grade: "Administrative Officer (AO)",
-          national: { min: 24920, max: 28260 },
-          london: { min: 27920, max: 31260 },
-          notes: ""
-        },
-        {
-          grade: "Executive Officer (EO)",
-          national: { min: 29100, max: 34410 },
-          london: { min: 32100, max: 37410 },
-          notes: ""
-        },
-        {
-          grade: "Higher Executive Officer (HEO)",
-          national: { min: 36290, max: 43250 },
-          london: { min: 39290, max: 46250 },
-          notes: ""
-        },
-        {
-          grade: "Senior Executive Officer (SEO)",
-          national: { min: 46140, max: 53390 },
-          london: { min: 49140, max: 56390 },
-          notes: ""
-        }
-      ]
-    },
-    {
-      id: "mod",
-      name: "Ministry of Defence",
-      abbreviation: "MOD",
-      lastUpdated: "2024-09-30",
-      source: "Published Salary Information",
-      sourceUrl: "#",
-      payScales: [
-        {
-          grade: "Administrative Assistant (AA)",
-          national: { min: 23500, max: 24550 },
-          london: { min: 26500, max: 27550 },
-          notes: ""
-        },
-        {
-          grade: "Administrative Officer (AO)",
-          national: { min: 25240, max: 28580 },
-          london: { min: 28240, max: 31580 },
-          notes: ""
-        },
-        {
-          grade: "Executive Officer (EO)",
-          national: { min: 29520, max: 34830 },
-          london: { min: 32520, max: 37830 },
-          notes: ""
-        },
-        {
-          grade: "Higher Executive Officer (HEO)",
-          national: { min: 36710, max: 43670 },
-          london: { min: 39710, max: 46670 },
-          notes: ""
-        },
-        {
-          grade: "Senior Executive Officer (SEO)",
-          national: { min: 46560, max: 53810 },
-          london: { min: 49560, max: 56810 },
-          notes: ""
-        },
-        {
-          grade: "Grade 7",
-          national: { min: 58790, max: 71150 },
-          london: { min: 61790, max: 74150 },
-          notes: ""
-        }
-      ]
-    }
-  ]
-};
+const sampleData = departmentsData;
+
+const lastDataUpdate = new Date(
+  Math.max(...sampleData.departments.map(d => new Date(d.lastUpdated)))
+).toLocaleDateString('en-GB', { year: 'numeric', month: 'long' });
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -219,7 +88,7 @@ function App() {
           <Info className="text-blue-600 flex-shrink-0 mt-0.5" size={20} />
           <div className="text-sm text-blue-900">
             <p className="font-semibold mb-1">Important Information</p>
-            <p>Pay scales are compiled from FOI requests and published sources. Always verify with the relevant department. Last site update: November 2024.</p>
+            <p>Pay scales are compiled from FOI requests and published sources. Always verify with the relevant department. Last data update: {lastDataUpdate}.</p>
           </div>
         </div>
 
@@ -347,25 +216,32 @@ function App() {
                   </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
-                  {selectedDept.payScales.map((scale, idx) => (
-                    <tr key={idx} className="hover:bg-gray-50">
-                      <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">
-                        {scale.grade}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">
-                        {formatCurrency(scale[locationFilter].min)}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-gray-700">
-                        {formatCurrency(scale[locationFilter].max)}
-                      </td>
-                      <td className="px-6 py-4 text-sm text-gray-600">
-                        {scale.notes || '-'}
-                      </td>
-                    </tr>
-                  ))}
+                  {selectedDept.payScales.map((scale, idx) => {
+                    const salaryData = scale[locationFilter] ?? scale.national;
+                    const isNationalFallback = locationFilter === 'london' && !scale[locationFilter];
+                    return (
+                      <tr key={idx} className="hover:bg-gray-50">
+                        <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">
+                          {scale.grade}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-gray-700">
+                          {formatCurrency(salaryData.min)}{isNationalFallback ? ' *' : ''}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-gray-700">
+                          {formatCurrency(salaryData.max)}{isNationalFallback ? ' *' : ''}
+                        </td>
+                        <td className="px-6 py-4 text-sm text-gray-600">
+                          {scale.notes || '-'}
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
+            {locationFilter === 'london' && selectedDept.payScales.some(s => !s.london) && (
+              <p className="px-6 py-3 text-xs text-gray-500">* London pay not separately published for this department; national rate shown.</p>
+            )}
           </div>
         )}
 
@@ -500,13 +376,15 @@ function App() {
                       </td>
                       {selectedDepts.map(dept => {
                         const scale = dept.payScales.find(s => s.grade === grade);
+                        const salaryData = scale ? (scale[locationFilter] ?? scale.national) : null;
+                        const isNationalFallback = scale && locationFilter === 'london' && !scale[locationFilter];
                         return (
                           <React.Fragment key={dept.id}>
                             <td className="px-3 py-4 whitespace-nowrap text-center text-gray-700">
-                              {scale ? formatCurrency(scale[locationFilter].min) : '-'}
+                              {salaryData ? formatCurrency(salaryData.min) + (isNationalFallback ? ' *' : '') : '-'}
                             </td>
                             <td className="px-3 py-4 whitespace-nowrap text-center text-gray-700">
-                              {scale ? formatCurrency(scale[locationFilter].max) : '-'}
+                              {salaryData ? formatCurrency(salaryData.max) + (isNationalFallback ? ' *' : '') : '-'}
                             </td>
                           </React.Fragment>
                         );

@@ -1,0 +1,10 @@
+department_id,department_name,abbreviation,last_updated,source,source_url,grade,national_min,national_max,london_min,london_max,notes
+hmrc,HM Revenue & Customs,HMRC,2024-11-01,Published Pay Scales 2024,https://www.gov.uk/government/organisations/hm-revenue-customs,Administrative Assistant (AA),23270,24320,26270,27320,
+hmrc,HM Revenue & Customs,HMRC,2024-11-01,Published Pay Scales 2024,https://www.gov.uk/government/organisations/hm-revenue-customs,Administrative Officer (AO),25020,28360,28020,31360,
+hmrc,HM Revenue & Customs,HMRC,2024-11-01,Published Pay Scales 2024,https://www.gov.uk/government/organisations/hm-revenue-customs,Executive Officer (EO),29300,34610,32300,37610,
+hmrc,HM Revenue & Customs,HMRC,2024-11-01,Published Pay Scales 2024,https://www.gov.uk/government/organisations/hm-revenue-customs,Higher Executive Officer (HEO),36490,43450,39490,46450,
+hmrc,HM Revenue & Customs,HMRC,2024-11-01,Published Pay Scales 2024,https://www.gov.uk/government/organisations/hm-revenue-customs,Senior Executive Officer (SEO),46340,53590,49340,56590,
+hmrc,HM Revenue & Customs,HMRC,2024-11-01,Published Pay Scales 2024,https://www.gov.uk/government/organisations/hm-revenue-customs,Grade 7 (G7),58570,70930,61570,73930,
+hmrc,HM Revenue & Customs,HMRC,2024-11-01,Published Pay Scales 2024,https://www.gov.uk/government/organisations/hm-revenue-customs,Grade 6 (G6),65530,78750,68530,81750,
+sg,Scottish Government,SG,2024-10-15,Scottish Government Pay Policy,https://www.gov.scot/policies/public-sector-pay/,Administrative Officer (AO),23258,26901,,,Team Band - London pay not separately published
+sg,Scottish Government,SG,2024-10-15,Scottish Government Pay Policy,https://www.gov.scot/policies/public-sector-pay/,Executive Officer (EO),27500,32000,,,Management Band

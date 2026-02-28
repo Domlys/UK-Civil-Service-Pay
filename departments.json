@@ -1,0 +1,138 @@
+
+{
+
+    "departments": [
+    {
+      "id": "hmrc",
+      "name": "HM Revenue & Customs",
+      "abbreviation": "HMRC",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": [
+        {
+          "grade": "Administrative Assistant (AA)",
+          "national": { "min": 23270, "max": 24320 },
+          "london": { "min": 26270, "max": 27320 },
+          "notes": "Entry level position"
+        },
+        {
+          "grade": "Administrative Officer (AO)",
+          "national": { "min": 25020, "max": 28360 },
+          "london": { "min": 28020, "max": 31360 },
+          "notes": ""
+        },
+        {
+          "grade": "Executive Officer (EO)",
+          "national": { "min": 29300, "max": 34610 },
+          "london": { "min": 32300, "max": 37610 },
+          "notes": ""
+        },
+        {
+          "grade": "Higher Executive Officer (HEO)",
+          "national": { "min": 36490, "max": 43450 },
+          "london": { "min": 39490, "max": 46450 },
+          "notes": ""
+        },
+        {
+          "grade": "Senior Executive Officer (SEO)",
+          "national": { "min": 46340, "max": 53590 },
+          "london": { "min": 49340, "max": 56590 },
+          "notes": ""
+        },
+        {
+          "grade": "Grade 7",
+          "national": { "min": 58570, "max": 70930 },
+          "london": { "min": 61570, "max": 73930 },
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "dwp",
+      "name": "Department for Work and Pensions",
+      "abbreviation": "DWP",
+      "lastUpdated": "2024-10-15",
+      "source": "FOI Response 2024-456",
+      "sourceUrl": "https://placeholder.url",
+      "payScales": [
+        {
+          "grade": "Administrative Assistant (AA)",
+          "national": { "min": 23180, "max": 24230 },
+          "london": { "min": 26180, "max": 27230 },
+          "notes": ""
+        },
+        {
+          "grade": "Administrative Officer (AO)",
+          "national": { "min": 24920, "max": 28260 },
+          "london": { "min": 27920, "max": 31260 },
+          "notes": ""
+        },
+        {
+          "grade": "Executive Officer (EO)",
+          "national": { "min": 29100, "max": 34410 },
+          "london": { "min": 32100, "max": 37410 },
+          "notes": ""
+        },
+        {
+          "grade": "Higher Executive Officer (HEO)",
+          "national": { "min": 36290, "max": 43250 },
+          "london": { "min": 39290, "max": 46250 },
+          "notes": ""
+        },
+        {
+          "grade": "Senior Executive Officer (SEO)",
+          "national": { "min": 46140, "max": 53390 },
+          "london": { "min": 49140, "max": 56390 },
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "mod",
+      "name": "Ministry of Defence",
+      "abbreviation": "MOD",
+      "lastUpdated": "2024-09-30",
+      "source": "Published Salary Information",
+      "sourceUrl": "#",
+      "payScales": [
+        {
+          "grade": "Administrative Assistant (AA)",
+          "national": { "min": 23500, "max": 24550 },
+          "london": { "min": 26500, "max": 27550 },
+          "notes": ""
+        },
+        {
+          "grade": "Administrative Officer (AO)",
+          "national": { "min": 25240, "max": 28580 },
+          "london": { "min": 28240, "max": 31580 },
+          "notes": ""
+        },
+        {
+          "grade": "Executive Officer (EO)",
+          "national": { "min": 29520, "max": 34830 },
+          "london": { "min": 32520, "max": 37830 },
+          "notes": ""
+        },
+        {
+          "grade": "Higher Executive Officer (HEO)",
+          "national": { "min": 36710, "max": 43670 },
+          "london": { "min": 39710, "max": 46670 },
+          "notes": ""
+        },
+        {
+          "grade": "Senior Executive Officer (SEO)",
+          "national": { "min": 46560, "max": 53810 },
+          "london": { "min": 49560, "max": 56810 },
+          "notes": ""
+        },
+        {
+          "grade": "Grade 7",
+          "national": { "min": 58790, "max": 71150 },
+          "london": { "min": 61790, "max": 74150 },
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}

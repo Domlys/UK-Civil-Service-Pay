@@ -13,7 +13,7 @@ A comprehensive, searchable database of UK Civil Service pay scales across gover
 
 ## 🚀 Live Demo
 
-[View the live site](#) *(add your deployed URL here)*
+[View the live site](https://domlys.github.io/UK-Civil-Service-Pay/)
 
 ## 📸 Screenshots
 

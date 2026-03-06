@@ -14,6 +14,18 @@ function App() {
   const [compareMode, setCompareMode] = useState(false);
   const [selectedDept, setSelectedDept] = useState(null);
   const [locationFilter, setLocationFilter] = useState('national');
+  const [yearFilter, setYearFilter] = useState(null);
+
+  const getAvailableYears = (dept) =>
+    Object.keys(dept.payScales).sort();
+
+  const getEffectiveYear = (dept) => {
+    const years = getAvailableYears(dept);
+    return years.includes(yearFilter) ? yearFilter : years.at(-1);
+  };
+
+  const getPayScalesForDept = (dept) =>
+    dept.payScales[getEffectiveYear(dept)];
 
   const filteredDepartments = useMemo(() => {
     return sampleData.departments.filter(dept =>
@@ -61,7 +73,7 @@ function App() {
   const getUniqueGrades = () => {
     const gradesSet = new Set();
     selectedDepts.forEach(dept => {
-      dept.payScales.forEach(scale => gradesSet.add(scale.grade));
+      getPayScalesForDept(dept).forEach(scale => gradesSet.add(scale.grade));
     });
     return Array.from(gradesSet);
   };
@@ -197,6 +209,24 @@ function App() {
               </div>
             </div>
 
+            {getAvailableYears(selectedDept).length >= 1 && (
+              <div className="px-6 pt-4 flex gap-1 border-b border-gray-200">
+                {getAvailableYears(selectedDept).map(year => (
+                  <button
+                    key={year}
+                    onClick={() => setYearFilter(year)}
+                    className={`px-4 py-2 text-sm font-medium rounded-t-lg border-b-2 -mb-px transition-colors ${
+                      getEffectiveYear(selectedDept) === year
+                        ? 'border-blue-600 text-blue-600'
+                        : 'border-transparent text-gray-500 hover:text-gray-700'
+                    }`}
+                  >
+                    {year}
+                  </button>
+                ))}
+              </div>
+            )}
+
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-gray-50">
@@ -216,7 +246,7 @@ function App() {
                   </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
-                  {selectedDept.payScales.map((scale, idx) => {
+                  {getPayScalesForDept(selectedDept).map((scale, idx) => {
                     const salaryData = scale[locationFilter] ?? scale.national;
                     const isNationalFallback = locationFilter === 'london' && !scale[locationFilter];
                     return (
@@ -239,7 +269,7 @@ function App() {
                 </tbody>
               </table>
             </div>
-            {locationFilter === 'london' && selectedDept.payScales.some(s => !s.london) && (
+            {locationFilter === 'london' && getPayScalesForDept(selectedDept).some(s => !s.london) && (
               <p className="px-6 py-3 text-xs text-gray-500">* London pay not separately published for this department; national rate shown.</p>
             )}
           </div>
@@ -355,6 +385,9 @@ function App() {
                     {selectedDepts.map(dept => (
                       <th key={dept.id} className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider" colSpan="2">
                         {dept.abbreviation}
+                        <span className="block text-gray-400 font-normal normal-case text-xs mt-0.5">
+                          {getEffectiveYear(dept)} data
+                        </span>
                       </th>
                     ))}
                   </tr>
@@ -375,7 +408,7 @@ function App() {
                         {grade}
                       </td>
                       {selectedDepts.map(dept => {
-                        const scale = dept.payScales.find(s => s.grade === grade);
+                        const scale = getPayScalesForDept(dept).find(s => s.grade === grade);
                         const salaryData = scale ? (scale[locationFilter] ?? scale.national) : null;
                         const isNationalFallback = scale && locationFilter === 'london' && !scale[locationFilter];
                         return (

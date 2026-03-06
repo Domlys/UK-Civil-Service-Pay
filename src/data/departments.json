@@ -1,734 +1,1239 @@
-
 {
-
-    "departments": [
+  "departments": [
     {
       "id": "hmrc",
       "name": "HM Revenue & Customs",
       "abbreviation": "HMRC",
+      "lastUpdated": "2026-03-06",
+      "source": "FOI 2024-083",
+      "sourceUrl": "https://assets.publishing.service.gov.uk/media/676570b6be7b2c675de30934/2024-083.pdf",
+      "payScales": {
+        "2024": [
+          {
+            "grade": "Administrative Assistant (AA)",
+            "national": {
+              "min": 23470,
+              "max": 23470
+            },
+            "notes": "Spot rate (Band G). Apprentice rate."
+          },
+          {
+            "grade": "Administrative Officer (AO)",
+            "national": {
+              "min": 27753,
+              "max": 27753
+            },
+            "notes": "Spot rate (Band F). Corporate stream."
+          },
+          {
+            "grade": "Executive Officer (EO)",
+            "national": {
+              "min": 28506,
+              "max": 33565
+            },
+            "notes": "Corporate stream. Digital stream: £31,655-£35,243."
+          },
+          {
+            "grade": "Higher Executive Officer (HEO)",
+            "national": {
+              "min": 34437,
+              "max": 37853
+            },
+            "notes": "Corporate stream. Digital stream: £38,556-£41,104."
+          },
+          {
+            "grade": "Senior Executive Officer (SEO)",
+            "national": {
+              "min": 40178,
+              "max": 44780
+            },
+            "notes": "Corporate stream. Digital stream: £43,886-£49,887."
+          },
+          {
+            "grade": "Grade 7 (G7)",
+            "national": {
+              "min": 55789,
+              "max": 66021
+            },
+            "notes": "Corporate stream. Digital stream: £60,899-£69,323."
+          },
+          {
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 71056,
+              "max": 79061
+            },
+            "notes": "Corporate stream. Digital stream: £73,396-£83,428."
+          }
+        ]
+      }
+    },
+    {
+      "id": "moj",
+      "name": "Ministry of Justice",
+      "abbreviation": "MoJ",
       "lastUpdated": "2024-11-01",
       "source": "Published Pay Scales 2024",
       "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-      "payScales": [
-        {
-          "grade": "Administrative Assistant (AA)",
-          "national": { "min": 23270, "max": 24320 },
-          "london": { "min": 26270, "max": 27320 },
-          "notes": ""
-        },
-        {
-          "grade": "Administrative Officer (AO)",
-          "national": { "min": 25020, "max": 28360 },
-          "london": { "min": 28020, "max": 31360 },
-          "notes": ""
-        },
-        {
-          "grade": "Executive Officer (EO)",
-          "national": { "min": 29300, "max": 34610 },
-          "london": { "min": 32300, "max": 37610 },
-          "notes": ""
-        },
-        {
-          "grade": "Higher Executive Officer (HEO)",
-          "national": { "min": 36490, "max": 43450 },
-          "london": { "min": 39490, "max": 46450 },
-          "notes": ""
-        },
-        {
-          "grade": "Senior Executive Officer (SEO)",
-          "national": { "min": 46340, "max": 53590 },
-          "london": { "min": 49340, "max": 56590 },
-          "notes": ""
-        },
-        {
-          "grade": "Grade 7 (G7)",
-          "national": { "min": 58570, "max": 70930 },
-          "london": { "min": 61570, "max": 73930 },
-          "notes": ""
-        },
-        {
+      "payScales": {
+        "2024": [
+          {
+            "grade": "Administrative Assistant (AA)",
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Administrative Officer (AO)",
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Executive Officer (EO)",
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Higher Executive Officer (HEO)",
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Senior Executive Officer (SEO)",
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Grade 7 (G7)",
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
+            "notes": ""
+          },
+          {
             "grade": "Grade 6 (G6)",
-            "national": { "min": 58790, "max": 71150 },
-            "london": { "min": 61790, "max": 74150 },
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
             "notes": ""
           }
-      ]
+        ]
+      }
     },
     {
-        "id": "moj",
-        "name": "Ministry of Justice",
-        "abbreviation": "MoJ",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "ho",
+      "name": "Home Office",
+      "abbreviation": "Home Office",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "ho",
-        "name": "Home Office",
-        "abbreviation": "Home Office",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "mhclg",
+      "name": "Ministry for Housing, Communities and Local Government",
+      "abbreviation": "MHCLG",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "mhclg",
-        "name": "Ministry for Housing, Communities and Local Government",
-        "abbreviation": "MHCLG",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "dcms",
+      "name": "Department for Culture, Media and Sport",
+      "abbreviation": "DCMS",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "dcms",
-        "name": "Department for Culture, Media and Sport",
-        "abbreviation": "DCMS",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "defra",
+      "name": "Department for Food, Environment and Rural Affairs",
+      "abbreviation": "DEFRA",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "defra",
-        "name": "Department for Food, Environment and Rural Affairs",
-        "abbreviation": "DEFRA",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "dfe",
+      "name": "Department for Education",
+      "abbreviation": "DfE",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "dfe",
-        "name": "Department for Education",
-        "abbreviation": "DfE",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "dhsc",
+      "name": "Department for Health and Social Care",
+      "abbreviation": "DHSC",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "dhsc",
-        "name": "Department for Health and Social Care",
-        "abbreviation": "DHSC",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "hmt",
+      "name": "HM Treasury",
+      "abbreviation": "HM Treasury",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "hmt",
-        "name": "HM Treasury",
-        "abbreviation": "HM Treasury",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "co",
+      "name": "Cabinet Office",
+      "abbreviation": "Cabinet Office",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "co",
-        "name": "Cabinet Office",
-        "abbreviation": "Cabinet Office",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "dbt",
+      "name": "Department for Business and Trade",
+      "abbreviation": "DBT",
+      "lastUpdated": "2024-11-01",
+      "source": "Published Pay Scales 2024",
+      "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "dbt",
-        "name": "Department for Business and Trade",
-        "abbreviation": "DBT",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
-          {
-            "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
-            "notes": ""
-          },
+      "id": "desnz",
+      "name": "Department for Energy Security and Net Zero",
+      "abbreviation": "DESNZ",
+      "lastUpdated": "2026-03-06",
+      "source": "Organogram CSV (1 December 2024)",
+      "sourceUrl": "https://data.gov.uk/dataset/desnz-organogram-of-staff-roles-salaries",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
-            "notes": ""
+            "national": {
+              "min": 25515,
+              "max": 28705
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
-            "notes": ""
+            "national": {
+              "min": 27375,
+              "max": 34585
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
-            "notes": ""
+            "national": {
+              "min": 33660,
+              "max": 41355
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
-            "notes": ""
+            "national": {
+              "min": 40528,
+              "max": 51540
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
-            "notes": ""
+            "national": {
+              "min": 54409,
+              "max": 67565
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 66605,
+              "max": 81800
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
+          }
         ]
-      },
+      }
+    },
     {
-        "id": "desnz",
-        "name": "Department for Energy Security and Net Zero",
-        "abbreviation": "DESNZ",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
-          {
-            "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
-            "notes": ""
-          },
-          {
-            "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
-            "notes": ""
-          },
+      "id": "dsit",
+      "name": "Department for Science, Innovation and Technology",
+      "abbreviation": "DSIT",
+      "lastUpdated": "2026-03-06",
+      "source": "Organogram CSV (30 June 2024)",
+      "sourceUrl": "https://data.gov.uk/dataset/dsit-organogram-of-staff-roles-salaries",
+      "payScales": {
+        "2024": [
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
-            "notes": ""
+            "national": {
+              "min": 27380,
+              "max": 33765
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
-            "notes": ""
+            "national": {
+              "min": 33015,
+              "max": 40110
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
-            "notes": ""
+            "national": {
+              "min": 37470,
+              "max": 45565
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
-            "notes": ""
+            "national": {
+              "min": 54415,
+              "max": 64995
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
           },
           {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 67250,
+              "max": 79440
+            },
+            "notes": "BEIS-inherited pay structure. No national/London split in organogram data."
+          }
         ]
-      },
-    {
-        "id": "dsit",
-        "name": "Department for Science Innovation and Technology",
-        "abbreviation": "DSIT",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
-          {
-            "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
-            "notes": ""
-          },
-          {
-            "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
-            "notes": ""
-          },
-          {
-            "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
-            "notes": ""
-          },
-          {
-            "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
-            "notes": ""
-          },
-          {
-            "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
-            "notes": ""
-          },
-          {
-            "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
-            "notes": ""
-          },
-          {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
-        ]
-      },
+      }
+    },
     {
       "id": "dwp",
       "name": "Department for Work and Pensions",
       "abbreviation": "DWP",
-      "lastUpdated": "2024-10-15",
-      "source": "FOI Response 2024-456",
-      "sourceUrl": "https://placeholder.url",
-      "payScales": [
-        {
-          "grade": "Administrative Assistant (AA)",
-          "national": { "min": 23180, "max": 24230 },
-          "london": { "min": 26180, "max": 27230 },
-          "notes": ""
-        },
-        {
-          "grade": "Administrative Officer (AO)",
-          "national": { "min": 24920, "max": 28260 },
-          "london": { "min": 27920, "max": 31260 },
-          "notes": ""
-        },
-        {
-          "grade": "Executive Officer (EO)",
-          "national": { "min": 29100, "max": 34410 },
-          "london": { "min": 32100, "max": 37410 },
-          "notes": ""
-        },
-        {
-          "grade": "Higher Executive Officer (HEO)",
-          "national": { "min": 36290, "max": 43250 },
-          "london": { "min": 39290, "max": 46250 },
-          "notes": ""
-        },
-        {
-          "grade": "Senior Executive Officer (SEO)",
-          "national": { "min": 46140, "max": 53390 },
-          "london": { "min": 49140, "max": 56390 },
-          "notes": ""
-        },
-        {
+      "lastUpdated": "2026-03-06",
+      "source": "DWP Employee Deal 2024 + Civil Service Jobs verification",
+      "sourceUrl": "https://www.civilservicejobs.service.gov.uk",
+      "payScales": {
+        "2024": [
+          {
+            "grade": "Administrative Assistant (AA)",
+            "national": {
+              "min": 26086,
+              "max": 26086
+            },
+            "london": {
+              "min": 29492,
+              "max": 29492
+            },
+            "notes": "Spot rate. 2024 Employee Deal rate."
+          },
+          {
+            "grade": "Administrative Officer (AO)",
+            "national": {
+              "min": 26337,
+              "max": 26337
+            },
+            "london": {
+              "min": 29779,
+              "max": 29779
+            },
+            "notes": "Spot rate. 2024 Employee Deal rate."
+          },
+          {
+            "grade": "Executive Officer (EO)",
+            "national": {
+              "min": 30975,
+              "max": 30975
+            },
+            "london": {
+              "min": 34755,
+              "max": 34755
+            },
+            "notes": "Spot rate. Some specialist EO roles up to £39,225."
+          },
+          {
+            "grade": "Higher Executive Officer (HEO)",
+            "national": {
+              "min": 37497,
+              "max": 38373
+            },
+            "london": {
+              "min": 41249,
+              "max": 42250
+            }
+          },
+          {
+            "grade": "Senior Executive Officer (SEO)",
+            "national": {
+              "min": 38000,
+              "max": 44000
+            },
+            "london": {
+              "min": 42000,
+              "max": 48000
+            },
+            "notes": "Estimated figures."
+          },
+          {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58790, "max": 71150 },
-            "london": { "min": 61790, "max": 74150 },
-            "notes": ""
+            "national": {
+              "min": 54000,
+              "max": 60000
+            },
+            "london": {
+              "min": 58000,
+              "max": 64000
+            },
+            "notes": "Estimated figures."
           },
           {
             "grade": "Grade 6 (G6)",
-            "national": { "min": 58790, "max": 71150 },
-            "london": { "min": 61790, "max": 74150 },
-            "notes": ""
+            "national": {
+              "min": 66000,
+              "max": 78000
+            },
+            "london": {
+              "min": 71000,
+              "max": 84000
+            },
+            "notes": "Estimated figures."
           }
-      ]
+        ]
+      }
     },
     {
       "id": "mod",
@@ -737,288 +1242,581 @@
       "lastUpdated": "2024-09-30",
       "source": "Published Salary Information",
       "sourceUrl": "#",
-      "payScales": [
-        {
-          "grade": "Administrative Assistant (AA)",
-          "national": { "min": 23500, "max": 24550 },
-          "london": { "min": 26500, "max": 27550 },
-          "notes": ""
-        },
-        {
-          "grade": "Administrative Officer (AO)",
-          "national": { "min": 25240, "max": 28580 },
-          "london": { "min": 28240, "max": 31580 },
-          "notes": ""
-        },
-        {
-          "grade": "Executive Officer (EO)",
-          "national": { "min": 29520, "max": 34830 },
-          "london": { "min": 32520, "max": 37830 },
-          "notes": ""
-        },
-        {
-          "grade": "Higher Executive Officer (HEO)",
-          "national": { "min": 36710, "max": 43670 },
-          "london": { "min": 39710, "max": 46670 },
-          "notes": ""
-        },
-        {
-          "grade": "Senior Executive Officer (SEO)",
-          "national": { "min": 46560, "max": 53810 },
-          "london": { "min": 49560, "max": 56810 },
-          "notes": ""
-        },
-        {
-          "grade": "Grade 7",
-          "national": { "min": 58790, "max": 71150 },
-          "london": { "min": 61790, "max": 74150 },
-          "notes": ""
-        },
-        {
+      "payScales": {
+        "2024": [
+          {
+            "grade": "Administrative Assistant (AA)",
+            "national": {
+              "min": 23500,
+              "max": 24550
+            },
+            "london": {
+              "min": 26500,
+              "max": 27550
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Administrative Officer (AO)",
+            "national": {
+              "min": 25240,
+              "max": 28580
+            },
+            "london": {
+              "min": 28240,
+              "max": 31580
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Executive Officer (EO)",
+            "national": {
+              "min": 29520,
+              "max": 34830
+            },
+            "london": {
+              "min": 32520,
+              "max": 37830
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Higher Executive Officer (HEO)",
+            "national": {
+              "min": 36710,
+              "max": 43670
+            },
+            "london": {
+              "min": 39710,
+              "max": 46670
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Senior Executive Officer (SEO)",
+            "national": {
+              "min": 46560,
+              "max": 53810
+            },
+            "london": {
+              "min": 49560,
+              "max": 56810
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Grade 7",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          },
+          {
             "grade": "Grade 6",
-            "national": { "min": 58790, "max": 71150 },
-            "london": { "min": 61790, "max": 74150 },
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
             "notes": ""
           }
-      ]
+        ]
+      }
     },
     {
-        "id": "nio",
-        "name": "Northern Ireland Office",
-        "abbreviation": "NIO",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
+      "id": "nio",
+      "name": "Northern Ireland Office",
+      "abbreviation": "NIO",
+      "lastUpdated": "2026-03-06",
+      "source": "Ministry of Justice (administering department)",
+      "sourceUrl": "https://www.gov.uk/government/organisations/ministry-of-justice",
+      "notes": "Pay scales administered by the Ministry of Justice.",
+      "payScales": {
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
             "notes": ""
           },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
             "notes": ""
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
             "notes": ""
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
             "notes": ""
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
             "notes": ""
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
             "notes": ""
-          },
-          {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
-        ]
-      },
-    {
-        "id": "sg",
-        "name": "Scottish Government",
-        "abbreviation": "SG",
-        "lastUpdated": "2024-10-15",
-        "source": "Scottish Government website",
-        "sourceUrl": "https://www.jobs.gov.scot/about-us/financial-rewards",
-        "payScales": [
-    
-          {
-            "grade": "Administrative Officer (AO)",
-            "national": { "min": 23258, "max": 26901 },
-            "notes": "Team Band"
-          },
-          {
-            "grade": "Executive Officer (EO)",
-            "national": { "min": 28245, "max": 32141 },
-            "notes": "Management Band 3"
-          },
-          {
-            "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 34083, "max": 41675 },
-            "notes": "Management Band 2"
-          },
-          {
-            "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 43785, "max": 51839 },
-            "notes": "Management Band 1"
-          },
-          {
-            "grade": "Grade 7 (G7)",
-            "national": { "min": 56112, "max": 67095 },
-            "notes": "Executive Band 2"
           },
           {
             "grade": "Grade 6 (G6)",
-            "national": { "min": 70455, "max": 80840 },
-            "notes": "Executive Band 1"
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
           }
         ]
-      },
-      {
-        "id": "so",
-        "name": "Scotland Office",
-        "abbreviation": "Scotland Office",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
-          {
-            "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
-            "notes": ""
-          },
-          {
-            "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
-            "notes": ""
-          },
-          {
-            "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
-            "notes": ""
-          },
-          {
-            "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
-            "notes": ""
-          },
-          {
-            "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
-            "notes": ""
-          },
-          {
-            "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
-            "notes": ""
-          },
-          {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
-        ]
-      },
-      {
-        "id": "wo",
-        "name": "Wales Office",
-        "abbreviation": "Wales Office",
-        "lastUpdated": "2024-11-01",
-        "source": "Published Pay Scales 2024",
-        "sourceUrl": "https://www.gov.uk/government/organisations/hm-revenue-customs",
-        "payScales": [
-          {
-            "grade": "Administrative Assistant (AA)",
-            "national": { "min": 23270, "max": 24320 },
-            "london": { "min": 26270, "max": 27320 },
-            "notes": ""
-          },
-          {
-            "grade": "Administrative Officer (AO)",
-            "national": { "min": 25020, "max": 28360 },
-            "london": { "min": 28020, "max": 31360 },
-            "notes": ""
-          },
-          {
-            "grade": "Executive Officer (EO)",
-            "national": { "min": 29300, "max": 34610 },
-            "london": { "min": 32300, "max": 37610 },
-            "notes": ""
-          },
-          {
-            "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 36490, "max": 43450 },
-            "london": { "min": 39490, "max": 46450 },
-            "notes": ""
-          },
-          {
-            "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 46340, "max": 53590 },
-            "london": { "min": 49340, "max": 56590 },
-            "notes": ""
-          },
-          {
-            "grade": "Grade 7 (G7)",
-            "national": { "min": 58570, "max": 70930 },
-            "london": { "min": 61570, "max": 73930 },
-            "notes": ""
-          },
-          {
-              "grade": "Grade 6 (G6)",
-              "national": { "min": 58790, "max": 71150 },
-              "london": { "min": 61790, "max": 74150 },
-              "notes": ""
-            }
-        ]
-      },
+      }
+    },
     {
-        "id": "wg",
-        "name": "Welsh Government",
-        "abbreviation": "WG",
-        "lastUpdated": "2024-10-15",
-        "source": "Welsh Government website",
-        "sourceUrl": "https://www.gov.wales/welsh-government-civil-service-pay-and-benefits",
-        "payScales": [
-    
+      "id": "sg",
+      "name": "Scottish Government",
+      "abbreviation": "SG",
+      "lastUpdated": "2026-03-06",
+      "source": "Scottish Government - Financial Rewards",
+      "sourceUrl": "https://www.jobs.gov.scot/about-us/financial-rewards",
+      "payScales": {
+        "2025": [
+          {
+            "grade": "Administrative Assistant (AA)",
+            "national": {
+              "min": 26245,
+              "max": 29257
+            },
+            "notes": "Band A3"
+          },
           {
             "grade": "Administrative Officer (AO)",
-            "national": { "min": 23258, "max": 26901 },
+            "national": {
+              "min": 30174,
+              "max": 32425
+            },
+            "notes": "Band A4"
+          },
+          {
+            "grade": "Executive Officer (EO)",
+            "national": {
+              "min": 33754,
+              "max": 36612
+            },
+            "notes": "Band B1"
+          },
+          {
+            "grade": "Higher Executive Officer (HEO)",
+            "national": {
+              "min": 38422,
+              "max": 43934
+            },
+            "notes": "Band B2"
+          },
+          {
+            "grade": "Senior Executive Officer (SEO)",
+            "national": {
+              "min": 47730,
+              "max": 57151
+            },
+            "notes": "Band B3"
+          },
+          {
+            "grade": "Grade 7 (G7)",
+            "national": {
+              "min": 60010,
+              "max": 74820
+            },
+            "notes": "Band C1"
+          },
+          {
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 77460,
+              "max": 89403
+            },
+            "notes": "Band C2"
+          },
+          {
+            "grade": "Band C3 (no UK equivalent)",
+            "national": {
+              "min": 89687,
+              "max": 90901
+            },
+            "notes": "Band C3 - no direct UK Civil Service equivalent"
+          }
+        ]
+      }
+    },
+    {
+      "id": "so",
+      "name": "Scotland Office",
+      "abbreviation": "Scotland Office",
+      "lastUpdated": "2026-03-06",
+      "source": "Ministry of Justice (administering department)",
+      "sourceUrl": "https://www.gov.uk/government/organisations/ministry-of-justice",
+      "notes": "Pay scales administered by the Ministry of Justice.",
+      "payScales": {
+        "2024": [
+          {
+            "grade": "Administrative Assistant (AA)",
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Administrative Officer (AO)",
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Executive Officer (EO)",
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Higher Executive Officer (HEO)",
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Senior Executive Officer (SEO)",
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Grade 7 (G7)",
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "wo",
+      "name": "Wales Office",
+      "abbreviation": "Wales Office",
+      "lastUpdated": "2026-03-06",
+      "source": "Ministry of Justice (administering department)",
+      "sourceUrl": "https://www.gov.uk/government/organisations/ministry-of-justice",
+      "notes": "Pay scales administered by the Ministry of Justice.",
+      "payScales": {
+        "2024": [
+          {
+            "grade": "Administrative Assistant (AA)",
+            "national": {
+              "min": 23270,
+              "max": 24320
+            },
+            "london": {
+              "min": 26270,
+              "max": 27320
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Administrative Officer (AO)",
+            "national": {
+              "min": 25020,
+              "max": 28360
+            },
+            "london": {
+              "min": 28020,
+              "max": 31360
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Executive Officer (EO)",
+            "national": {
+              "min": 29300,
+              "max": 34610
+            },
+            "london": {
+              "min": 32300,
+              "max": 37610
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Higher Executive Officer (HEO)",
+            "national": {
+              "min": 36490,
+              "max": 43450
+            },
+            "london": {
+              "min": 39490,
+              "max": 46450
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Senior Executive Officer (SEO)",
+            "national": {
+              "min": 46340,
+              "max": 53590
+            },
+            "london": {
+              "min": 49340,
+              "max": 56590
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Grade 7 (G7)",
+            "national": {
+              "min": 58570,
+              "max": 70930
+            },
+            "london": {
+              "min": 61570,
+              "max": 73930
+            },
+            "notes": ""
+          },
+          {
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 58790,
+              "max": 71150
+            },
+            "london": {
+              "min": 61790,
+              "max": 74150
+            },
+            "notes": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "wg",
+      "name": "Welsh Government",
+      "abbreviation": "Welsh Government",
+      "lastUpdated": "2026-03-06",
+      "source": "Welsh Government - Civil Service Pay and Benefits",
+      "sourceUrl": "https://www.gov.wales/welsh-government-civil-service-pay-and-benefits",
+      "payScales": {
+        "2025": [
+          {
+            "grade": "Administrative Officer (AO)",
+            "national": {
+              "min": 27302,
+              "max": 29291
+            },
             "notes": "Team Band"
           },
           {
             "grade": "Executive Officer (EO)",
-            "national": { "min": 28245, "max": 32141 },
+            "national": {
+              "min": 30754,
+              "max": 34997
+            },
             "notes": "Management Band 3"
           },
           {
             "grade": "Higher Executive Officer (HEO)",
-            "national": { "min": 34083, "max": 41675 },
+            "national": {
+              "min": 37111,
+              "max": 45378
+            },
             "notes": "Management Band 2"
           },
           {
             "grade": "Senior Executive Officer (SEO)",
-            "national": { "min": 43785, "max": 51839 },
+            "national": {
+              "min": 47675,
+              "max": 56445
+            },
             "notes": "Management Band 1"
           },
           {
             "grade": "Grade 7 (G7)",
-            "national": { "min": 56112, "max": 67095 },
+            "national": {
+              "min": 61098,
+              "max": 73057
+            },
             "notes": "Executive Band 2"
           },
           {
             "grade": "Grade 6 (G6)",
-            "national": { "min": 70455, "max": 80840 },
+            "national": {
+              "min": 76715,
+              "max": 88023
+            },
             "notes": "Executive Band 1"
           }
         ]
       }
+    },
+    {
+      "id": "fcdo",
+      "name": "Foreign, Commonwealth and Development Office",
+      "abbreviation": "FCDO",
+      "lastUpdated": "2026-03-06",
+      "source": "FOI FOI2025/00001S",
+      "sourceUrl": "https://www.gov.uk/government/publications/foi-release-pay-bands-and-structures-across-grades/foi202500001s-pay-bands-and-structures-across-grades",
+      "payScales": {
+        "2024": [
+          {
+            "grade": "Administrative Officer (AO)",
+            "national": {
+              "min": 27360,
+              "max": 27360
+            },
+            "notes": "Spot rate (Band A2). No AA grade."
+          },
+          {
+            "grade": "Executive Officer (EO)",
+            "national": {
+              "min": 30379,
+              "max": 33855
+            },
+            "notes": "Band B3. Technical pay band: £31,657-£35,204."
+          },
+          {
+            "grade": "Higher Executive Officer (HEO)",
+            "national": {
+              "min": 35824,
+              "max": 40205
+            },
+            "notes": "Band C4. Technical pay band: £38,351-£44,860."
+          },
+          {
+            "grade": "Senior Executive Officer (SEO)",
+            "national": {
+              "min": 43200,
+              "max": 49299
+            },
+            "notes": "Band C5. Technical pay band: £45,608-£52,006."
+          },
+          {
+            "grade": "Grade 7 (G7)",
+            "national": {
+              "min": 55970,
+              "max": 64771
+            },
+            "notes": "Band D6. Technical pay band: £58,123-£67,633."
+          },
+          {
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 70575,
+              "max": 78813
+            },
+            "notes": "Band D7."
+          }
+        ]
+      }
+    }
   ]
 }

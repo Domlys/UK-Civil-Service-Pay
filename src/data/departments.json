@@ -134,7 +134,7 @@
       "source": "Organogram of Staff Roles & Salaries (September 2025)",
       "sourceUrl": "https://www.data.gov.uk/dataset/a90a9f70-e28c-4a95-a7a7-f79d12fbe219/organogram-of-staff-roles-salaries",
       "payScales": {
-        "2022": [
+        "2023": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -192,7 +192,7 @@
             "notes": ""
           }
         ],
-        "2023": [
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -250,7 +250,7 @@
             "notes": ""
           }
         ],
-        "2024": [
+        "2025": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -1298,7 +1298,7 @@
       "sourceUrl": "https://www.data.gov.uk/dataset/a90a9f70-e28c-4a95-a7a7-f79d12fbe219/organogram-of-staff-roles-salaries",
       "notes": "Pay scales administered by the Ministry of Justice.",
       "payScales": {
-        "2022": [
+        "2023": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -1356,7 +1356,7 @@
             "notes": "NIO staff are administered under MoJ pay frameworks."
           }
         ],
-        "2023": [
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -1414,7 +1414,7 @@
             "notes": "NIO staff are administered under MoJ pay frameworks."
           }
         ],
-        "2024": [
+        "2025": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -1559,7 +1559,7 @@
       "sourceUrl": "https://www.data.gov.uk/dataset/a90a9f70-e28c-4a95-a7a7-f79d12fbe219/organogram-of-staff-roles-salaries",
       "notes": "Pay scales administered by the Ministry of Justice.",
       "payScales": {
-        "2022": [
+        "2023": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -1617,7 +1617,7 @@
             "notes": "Scotland Office staff are administered under MoJ pay frameworks."
           }
         ],
-        "2023": [
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -1675,7 +1675,7 @@
             "notes": "Scotland Office staff are administered under MoJ pay frameworks."
           }
         ],
-        "2024": [
+        "2025": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -1744,7 +1744,7 @@
       "sourceUrl": "https://www.data.gov.uk/dataset/a90a9f70-e28c-4a95-a7a7-f79d12fbe219/organogram-of-staff-roles-salaries",
       "notes": "Pay scales administered by the Ministry of Justice.",
       "payScales": {
-        "2022": [
+        "2023": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -1802,7 +1802,7 @@
             "notes": "Wales Office staff are administered under MoJ pay frameworks."
           }
         ],
-        "2023": [
+        "2024": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {
@@ -1860,7 +1860,7 @@
             "notes": "Wales Office staff are administered under MoJ pay frameworks."
           }
         ],
-        "2024": [
+        "2025": [
           {
             "grade": "Administrative Assistant (AA)",
             "national": {

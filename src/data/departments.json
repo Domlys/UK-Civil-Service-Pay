@@ -8,6 +8,64 @@
       "source": "FOI 2024-083",
       "sourceUrl": "https://assets.publishing.service.gov.uk/media/676570b6be7b2c675de30934/2024-083.pdf",
       "payScales": {
+        "2023": [
+          {
+            "grade": "Administrative Assistant (AA)",
+            "national": {
+              "min": 22141,
+              "max": 22141
+            },
+            "notes": "Spot rate (Band G). Apprentice rate."
+          },
+          {
+            "grade": "Administrative Officer (AO)",
+            "national": {
+              "min": 26182,
+              "max": 26182
+            },
+            "notes": "Spot rate (Band F). Corporate stream."
+          },
+          {
+            "grade": "Executive Officer (EO)",
+            "national": {
+              "min": 27148,
+              "max": 31966
+            },
+            "notes": "Corporate stream."
+          },
+          {
+            "grade": "Higher Executive Officer (HEO)",
+            "national": {
+              "min": 32797,
+              "max": 36050
+            },
+            "notes": "Corporate stream."
+          },
+          {
+            "grade": "Senior Executive Officer (SEO)",
+            "national": {
+              "min": 38264,
+              "max": 42647
+            },
+            "notes": "Corporate stream."
+          },
+          {
+            "grade": "Grade 7 (G7)",
+            "national": {
+              "min": 53132,
+              "max": 62877
+            },
+            "notes": "Corporate stream."
+          },
+          {
+            "grade": "Grade 6 (G6)",
+            "national": {
+              "min": 67672,
+              "max": 75296
+            },
+            "notes": "Corporate stream."
+          }
+        ],
         "2024": [
           {
             "grade": "Administrative Assistant (AA)",
@@ -31,7 +89,7 @@
               "min": 28506,
               "max": 33565
             },
-            "notes": "Corporate stream. Digital stream: \u00a331,655-\u00a335,243."
+            "notes": "Corporate stream."
           },
           {
             "grade": "Higher Executive Officer (HEO)",
@@ -39,7 +97,7 @@
               "min": 34437,
               "max": 37853
             },
-            "notes": "Corporate stream. Digital stream: \u00a338,556-\u00a341,104."
+            "notes": "Corporate stream."
           },
           {
             "grade": "Senior Executive Officer (SEO)",
@@ -47,7 +105,7 @@
               "min": 40178,
               "max": 44780
             },
-            "notes": "Corporate stream. Digital stream: \u00a343,886-\u00a349,887."
+            "notes": "Corporate stream."
           },
           {
             "grade": "Grade 7 (G7)",
@@ -55,7 +113,7 @@
               "min": 55789,
               "max": 66021
             },
-            "notes": "Corporate stream. Digital stream: \u00a360,899-\u00a369,323."
+            "notes": "Corporate stream."
           },
           {
             "grade": "Grade 6 (G6)",
@@ -63,7 +121,7 @@
               "min": 71056,
               "max": 79061
             },
-            "notes": "Corporate stream. Digital stream: \u00a373,396-\u00a383,428."
+            "notes": "Corporate stream."
           }
         ]
       }
@@ -347,7 +405,7 @@
               "min": 25400,
               "max": 25400
             },
-            "notes": "Spot rate"
+            "notes": "Spot rate."
           },
           {
             "grade": "Administrative Officer (AO)",
@@ -359,7 +417,7 @@
               "min": 28680,
               "max": 28680
             },
-            "notes": "Spot rate"
+            "notes": "Spot rate."
           },
           {
             "grade": "Executive Officer (EO)",
@@ -1199,7 +1257,7 @@
               "min": 26245,
               "max": 29257
             },
-            "notes": "Band A3"
+            "notes": "Band A3."
           },
           {
             "grade": "Administrative Officer (AO)",
@@ -1207,7 +1265,7 @@
               "min": 30174,
               "max": 32425
             },
-            "notes": "Band A4"
+            "notes": "Band A4."
           },
           {
             "grade": "Executive Officer (EO)",
@@ -1215,7 +1273,7 @@
               "min": 33754,
               "max": 36612
             },
-            "notes": "Band B1"
+            "notes": "Band B1."
           },
           {
             "grade": "Higher Executive Officer (HEO)",
@@ -1223,7 +1281,7 @@
               "min": 38422,
               "max": 43934
             },
-            "notes": "Band B2"
+            "notes": "Band B2."
           },
           {
             "grade": "Senior Executive Officer (SEO)",
@@ -1231,7 +1289,7 @@
               "min": 47730,
               "max": 57151
             },
-            "notes": "Band B3"
+            "notes": "Band B3."
           },
           {
             "grade": "Grade 7 (G7)",
@@ -1239,7 +1297,7 @@
               "min": 60010,
               "max": 74820
             },
-            "notes": "Band C1"
+            "notes": "Band C1."
           },
           {
             "grade": "Grade 6 (G6)",
@@ -1247,7 +1305,7 @@
               "min": 77460,
               "max": 89403
             },
-            "notes": "Band C2"
+            "notes": "Band C2."
           },
           {
             "grade": "Band C3 (no UK equivalent)",
@@ -1255,7 +1313,7 @@
               "min": 89687,
               "max": 90901
             },
-            "notes": "Band C3 - no direct UK Civil Service equivalent"
+            "notes": "Band C3 - no direct UK Civil Service equivalent."
           }
         ]
       }
@@ -1413,7 +1471,7 @@
               "min": 27302,
               "max": 29291
             },
-            "notes": "Team Band"
+            "notes": "Team Band."
           },
           {
             "grade": "Executive Officer (EO)",
@@ -1421,7 +1479,7 @@
               "min": 30754,
               "max": 34997
             },
-            "notes": "Management Band 3"
+            "notes": "Management Band 3."
           },
           {
             "grade": "Higher Executive Officer (HEO)",
@@ -1429,7 +1487,7 @@
               "min": 37111,
               "max": 45378
             },
-            "notes": "Management Band 2"
+            "notes": "Management Band 2."
           },
           {
             "grade": "Senior Executive Officer (SEO)",
@@ -1437,7 +1495,7 @@
               "min": 47675,
               "max": 56445
             },
-            "notes": "Management Band 1"
+            "notes": "Management Band 1."
           },
           {
             "grade": "Grade 7 (G7)",
@@ -1445,7 +1503,7 @@
               "min": 61098,
               "max": 73057
             },
-            "notes": "Executive Band 2"
+            "notes": "Executive Band 2."
           },
           {
             "grade": "Grade 6 (G6)",
@@ -1453,7 +1511,7 @@
               "min": 76715,
               "max": 88023
             },
-            "notes": "Executive Band 1"
+            "notes": "Executive Band 1."
           }
         ]
       }

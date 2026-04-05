@@ -381,6 +381,7 @@
         "2024": [
           {
             "grade": "Administrative Officer (AO)",
+            "national": null,
             "london": {
               "min": 31766,
               "max": 31766
@@ -793,6 +794,7 @@
         "2024": [
           {
             "grade": "Administrative Officer (AO)",
+            "national": null,
             "london": {
               "min": 29200,
               "max": 30660

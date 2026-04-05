@@ -249,6 +249,7 @@ function App() {
                   {getPayScalesForDept(selectedDept).map((scale, idx) => {
                     const salaryData = scale[locationFilter] ?? scale.national;
                     const isNationalFallback = locationFilter === 'london' && !scale[locationFilter];
+                    if (!salaryData) return null;
                     return (
                       <tr key={idx} className="hover:bg-gray-50">
                         <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">

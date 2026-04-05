@@ -183,10 +183,7 @@ function App() {
             <p className="font-semibold mb-1">Important Information</p>
             <p>
               Pay scales are compiled from FOI requests and published sources. Always verify with the
-              relevant department. Last data update: {lastDataUpdate}.{' '}
-              <span className="text-gray-500">
-                Faded departments are on our list but we don't have data for them yet - see below to contribute.
-              </span>
+              relevant department. Last data update: {lastDataUpdate}.
             </p>
           </div>
         </div>
